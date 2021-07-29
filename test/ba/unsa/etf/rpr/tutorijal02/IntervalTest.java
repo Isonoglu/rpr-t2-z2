@@ -76,6 +76,7 @@ class IntervalTest {
         assertFalse(i.equals(i2));
     }
 
+
     @org.junit.jupiter.api.Test
     void intersect2() {
         Interval i = new Interval(1.1, 10.5, true, false);
